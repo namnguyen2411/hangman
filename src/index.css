@@ -1,3 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-poppins;
+    word-spacing: 1px;
+  }
+  h1 {
+    @apply text-[80px] font-extrabold;
+    word-spacing: 20px;
+  }
+  p {
+    @apply text-xl font-medium;
+  }
+  button {
+    @apply text-2xl font-semibold;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-7xl;
+  }
+
+  .curve {
+    width: 65px;
+    height: 85px;
+    border: solid 20px #000;
+    border-color: white white transparent transparent;
+    border-radius: 100%/0px 100px 50px 0;
+  }
+
+  .curve-reflex {
+    width: 70px;
+    height: 85px;
+    border: solid 20px #000;
+    border-color: white transparent transparent white;
+    border-radius: 30px 40%/50px 20px 0px;
+  }
+}
+
+@layer utilities {
+  .glowing {
+    text-shadow: 0 0 10px currentColor, 0 0 20px currentColor,
+      0 0 40px currentColor, 0 0 80px currentColor, 0 0 120px currentColor;
+  }
+  .animation-paused {
+    animation-play-state: paused;
+  }
+}
