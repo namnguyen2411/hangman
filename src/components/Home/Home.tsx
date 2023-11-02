@@ -2,7 +2,7 @@ import Button from "../Button";
 import { hangman, hangman_left, hangman_right } from "../../assets/images";
 
 type Props = {
-  setGameStarted: (arg: boolean) => void;
+  setGameStarted: (param: boolean) => void;
 };
 
 export default function Home({ setGameStarted }: Props) {
