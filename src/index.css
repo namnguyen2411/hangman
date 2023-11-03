@@ -10,7 +10,7 @@
     word-spacing: 1px;
   }
   h1 {
-    @apply text-[80px] font-extrabold;
+    @apply text-7xl font-extrabold;
     word-spacing: 20px;
   }
   p {
