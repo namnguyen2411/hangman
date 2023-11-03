@@ -1,4 +1,4 @@
-export function random(strArray: string[]): string {
+export function randomWord(strArray: string[]): string {
   const randomNum = Math.round(Math.random() * strArray.length);
   const word = strArray[randomNum];
 
