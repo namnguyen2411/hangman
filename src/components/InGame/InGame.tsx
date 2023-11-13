@@ -17,13 +17,12 @@ type Props = {
 export default function InGame({ hiddenWord, selectedTopic, setInGameScreen }: Props) {
   const [wonCounter, setWonCounter] = useState(0)
   const [hiddenWordList, setHiddenWordList] = useState<string[]>([hiddenWord])
-
   const [guessedLetters, setGuessedLetters] = useState<string[]>([])
-  const wrongLetters: string[] = guessedLetters.filter((letter) => !hiddenWordRemovedSpace.includes(letter))
 
   // get the latest word from hiddenWordList array
   const theLatestWord = hiddenWordList[hiddenWordList.length - 1].toLowerCase()
   const hiddenWordRemovedSpace = removeSpace(theLatestWord)
+  const wrongLetters: string[] = guessedLetters.filter((letter) => !hiddenWordRemovedSpace.includes(letter))
 
   const lose: boolean = wrongLetters.length === 10
   const win: boolean = hiddenWordRemovedSpace.split("").every((letter) => guessedLetters.includes(letter))
