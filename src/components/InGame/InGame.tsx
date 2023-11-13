@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react"
-import { Topic } from "types/topic.type"
-import { randomWord, removeSpace } from "utils"
+import { Topic } from "src/types/topic.type"
+import { randomWord, removeSpace } from "src/utils"
 import Toolbar from "./Toolbar"
 import HangmanDrawing from "./HangmanDrawing"
 import HiddenWord from "./HiddenWord"
 import Keyboard from "./Keyboard"
 import Popup from "./Popup"
-import { correct_sound, heartbeat_flatline } from "assets/audios"
+import { correct_sound, heartbeat_flatline } from "src/assets/audios"
 
 type Props = {
   hiddenWord: string

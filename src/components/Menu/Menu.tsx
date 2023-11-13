@@ -1,10 +1,10 @@
 import { useState } from "react"
-import { randomWord } from "utils"
-import topics from "data/topics.json"
-import { Topic } from "types/topic.type"
-import Button from "components/Button"
+import topics from "src/data/topics.json"
+import { Topic } from "src/types/topic.type"
+import { randomWord } from "src/utils"
 import TopicItem from "./TopicItem"
-import InGame from "components/InGame"
+import InGame from "../InGame"
+import Button from "../Button"
 
 export default function Menu() {
   const [selectedTopic, setSelectedTopic] = useState<Topic>(topics[0])
