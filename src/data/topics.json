@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "animals",
-    "image": "/src/assets/images/animals.png",
+    "image": "/assets/images/animals.png",
     "words": [
       "lizard",
       "raven",
@@ -42,7 +42,7 @@
   {
     "id": 2,
     "name": "sports",
-    "image": "/src/assets/images/sports.png",
+    "image": "/assets/images/sports.png",
     "words": [
       "soccer",
       "badminton",
@@ -75,7 +75,7 @@
   {
     "id": 3,
     "name": "body",
-    "image": "/src/assets/images/body.png",
+    "image": "/assets/images/body.png",
     "words": [
       "teeth",
       "tongue",
@@ -112,7 +112,7 @@
   {
     "id": 4,
     "name": "jobs",
-    "image": "/src/assets/images/jobs.png",
+    "image": "/assets/images/jobs.png",
     "words": [
       "policeman",
       "scientist",
@@ -144,7 +144,7 @@
   {
     "id": 5,
     "name": "countries",
-    "image": "/src/assets/images/countries.png",
+    "image": "/assets/images/countries.png",
     "words": [
       "Vietnam",
       "Korea",
@@ -179,7 +179,7 @@
   {
     "id": 6,
     "name": "home",
-    "image": "/src/assets/images/home.png",
+    "image": "/assets/images/home.png",
     "words": [
       "bed",
       "sofa",
@@ -218,7 +218,7 @@
   {
     "id": 7,
     "name": "fruits",
-    "image": "/src/assets/images/fruits.png",
+    "image": "/assets/images/fruits.png",
     "words": [
       "watermelon",
       "apple",
@@ -244,7 +244,7 @@
   {
     "id": 8,
     "name": "transportation",
-    "image": "/src/assets/images/transport.png",
+    "image": "/assets/images/transport.png",
     "words": [
       "bus",
       "motorbike",

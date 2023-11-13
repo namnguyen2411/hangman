@@ -6,7 +6,8 @@ import HangmanDrawing from "./HangmanDrawing"
 import HiddenWord from "./HiddenWord"
 import Keyboard from "./Keyboard"
 import Popup from "./Popup"
-import { correct_sound, heartbeat_flatline } from "src/assets/audios"
+import correct_sound from "/assets/audios/correct.mp3"
+import heartbeat_flatline from "/assets/audios/heartbeat_flatline.mp3"
 
 type Props = {
   hiddenWord: string

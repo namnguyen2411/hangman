@@ -1,4 +1,4 @@
-import { heartbeat } from "src/assets/audios"
+import heartbeat from "/assets/audios/heartbeat.mp3"
 
 interface Props {
   wrongLetters: number

@@ -1,4 +1,4 @@
-import { speaker } from "src/assets/images"
+import speaker from "/assets/images/speaker.png"
 
 type Props = {
   topicName: string
