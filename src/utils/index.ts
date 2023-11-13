@@ -1,4 +1,4 @@
-import { randomWord } from "./randomWord";
-import { removeSpace } from "./removeSpace";
+import { randomWord } from "./randomWord"
+import { removeSpace } from "./removeSpace"
 
-export { randomWord, removeSpace };
+export { randomWord, removeSpace }
